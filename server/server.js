@@ -11,7 +11,7 @@ var {User} = require('./models/user');
 var {authenticate} = require('./middleware/authenticate');
 
 var app = express();
-const port = process.env.PORT;//process.env is an object all of our enviroment variabels as key value pair.
+const port = process.env.PORT;
 
 app.use(bodyParser.json());
 
